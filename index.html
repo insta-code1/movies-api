@@ -1,13 +1,28 @@
 <!DOCTYPE>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Movies Api</title>
-  </head>
-  <body>
-    <h2>Welcome to the movie Api</h2>
-    <img id="poster">
-    <p id="plot"></p>
-  </body>
-  <script src="./script.js"></script>
+
+<head>
+	<meta charset="utf-8">
+	<title>Movies Api</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<h2>Welcome to the movie Api</h2>
+			<img id="poster">
+			<p id="plot"></p>
+			<div>
+				<form onsumbit="getMoive()">
+					<label>movie search</label>
+					<input type="text" id="movie-value">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="./script.js"></script>
+
 </html>
